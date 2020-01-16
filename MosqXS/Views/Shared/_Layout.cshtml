@@ -1,0 +1,51 @@
+﻿<!DOCTYPE html>
+
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <link href="~/css/Site.css" rel="stylesheet" />
+    <title>MosqXS</title>
+    <link href="~/css/bootstrap.min.css" rel="stylesheet" />
+    <script src="~/js/jquery-3.3.1.min.js"></script>
+    <script src="~/js/popper.min.js"></script>
+    <script src="~/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" type="text/css" href="~/css/Site.css">
+
+
+</head>
+<body>
+    <div class="container">
+        <div class="row">
+            <div class="col-sm-12">
+                @await Html.PartialAsync("MosqXSMenu.cshtml")
+                @* This line insert our navigation bar *@
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-sm-12">
+                <p style="padding:2px 15px;">
+                    Reduce mosquitoes!&nbsp;
+                </p>
+            </div>
+        </div>
+        <!-- 3rd row -->
+        <div class="row">
+            <div class="col-sm-12">
+                @RenderBody()
+            </div>
+        </div>
+        <!-- 4th row -->
+        <div class="row">
+            <div class="col-sm-12" style="text-align: right">
+                <hr />
+                <footer>
+                    <p style="padding-right:10px;">
+                        MosqXS - &copy;@DateTime.Today.Year
+                        School of ICT, Ngee Ann Polytechnic
+                    </p>
+                </footer>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
