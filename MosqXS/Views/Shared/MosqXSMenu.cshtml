@@ -1,43 +1,41 @@
-﻿<nav class="navbar navbar-expand-md navbar-light bg-dark py-2">
+﻿<nav class="navbar navbar-expand-md bg-dark navbar-light">
     <!-- The brand(or icon) of the navbar -->
-    <div class="container">
-        <a class="navbar-brand col-3" href="~/Home/MosqXSMain"
-           style="font-size:32px; font-weight:bold; color:#3399FF;">
-            MosqXS
-        </a>
-        <!-- Toggle/collapsible Button, also known as hamburger button -->
-        <button class="navbar-toggler" type="button" data-toggle="collapse"
-                data-target="#staffNavbar">
-            <span class="navbar-toggler-icon"></span>
-        </button>
-        <!-- Links in the navbar, displayed as drop-down list when collapsed -->
-        <div class="collapse navbar-collapse" id="staffNavbar">
-            <!-- Links that are aligned to the left,
+    <a class="navbar-brand" href="~/Home/StaffMain"
+       style="font-size:32px; font-weight:bold; color:#3399FF;">
+        MosqXS
+    </a>
+    <!-- Toggle/collapsible Button, also known as hamburger button -->
+    <button class="navbar-toggler" type="button" data-toggle="collapse"
+            data-target="#staffNavbar">
+        <span class="navbar-toggler-icon"></span>
+    </button>
+    <!-- Links in the navbar, displayed as drop-down list when collapsed -->
+    <div class="collapse navbar-collapse" id="staffNavbar">
+        <!-- Links that are aligned to the left,
         mr-auto: right margin auto-adjusted -->
-            <ul class="navbar-nav mr-auto">
-                <li class="nav-item">
-                    <a class="nav-link text-light" href="~/Rental/Calculate">
-                        Main Page
-                    </a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link text-light" href="~/Fine/Calculate">Hotspot</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link text-light" href="~/Staff/Index">Common Tips & Guide</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link text-light" href="~/Branch/Index">Our Product</a>
-                </li>
-            </ul>
-            <!-- Links that are aligned to the right,
+        <ul class="navbar-nav mr-auto">
+            <li class="nav-item col-2">
+                <a class="nav-link text-light" href="~/Home/MosqXSMain">
+                    Main Page
+                </a>
+            </li>
+            <li class="nav-item col-2">
+                <a class="nav-link text-light" href="~/Home/MosqXSHotSpot">Hotspot</a>
+            </li>
+            <li class="nav-item col-2">
+                <a class="nav-link text-light" href="~/Staff/Index">Common Tips & Guide</a>
+            </li>
+            <li class="nav-item col-2">
+                <a class="nav-link text-light" href="~/Branch/Index">Our Product</a>
+            </li>
+        </ul>
+        <!-- Links that are aligned to the right,
         ml-auto: left margin auto-adjusted -->
-            @*<ul class="navbar-nav ml-auto">
+        @*<ul class="navbar-nav ml-auto">
             <li class="nav-item">*@
-            <!-- A link for logging out user -->
-            @*<a class="nav-link" href="~/Home/LogOut">Log Out</a>
-                </li>
-            </ul>*@
-        </div>
+                <!-- A link for logging out user -->
+                @*<a class="nav-link" href="~/Home/LogOut">Log Out</a>
+            </li>
+        </ul>*@
     </div>
 </nav>

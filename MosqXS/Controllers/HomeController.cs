@@ -12,5 +12,10 @@ namespace MosqXS.Controllers
         {
             return View();
         }
+
+        public IActionResult MosqXSHotSpot()
+        {
+            return View();
+        }
     }
 }
