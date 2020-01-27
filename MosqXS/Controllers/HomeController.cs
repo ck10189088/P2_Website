@@ -17,5 +17,10 @@ namespace MosqXS.Controllers
         {
             return View();
         }
+
+        public ActionResult toHotSpot()
+        {
+            return RedirectToAction("MosqXSHotSpot");
+        }
     }
 }

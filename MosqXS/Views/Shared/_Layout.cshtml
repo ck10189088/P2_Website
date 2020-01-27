@@ -9,6 +9,16 @@
     <script src="~/js/jquery-3.3.1.min.js"></script>
     <script src="~/js/popper.min.js"></script>
     <script src="~/js/bootstrap.min.js"></script>
+    <script src="~/js/typed.min.js"></script>
+    <script type="text/javascript">
+        var typed = new Typed('.typing', {
+            strings: [" have this idea?", " want to do this?"],
+            loop: true,
+            typeSpeed: 40,
+            backSpeed: 40,
+            backDelay: 1000,
+        });
+    </script>
     <link rel="stylesheet" type="text/css" href="~/css/Site.css">
 
 
@@ -35,8 +45,7 @@
             </div>
         </div>
         <!-- 4th row -->
-        <div class="row">
-            <div class="col-sm-12" style="text-align: right">
+            @*<div class="col-sm-12" style="text-align: right">
                 <hr />
                 <footer>
                     <p style="padding-right:10px;">
@@ -44,7 +53,9 @@
                         School of ICT, Ngee Ann Polytechnic
                     </p>
                 </footer>
-            </div>
+            </div>*@
+        <div>
+            @await Html.PartialAsync("MosqXSFooter.cshtml")
         </div>
     </div>
 </body>
