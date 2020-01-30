@@ -22,5 +22,10 @@ namespace MosqXS.Controllers
         {
             return RedirectToAction("MosqXSHotSpot");
         }
+
+        public IActionResult MosqXSInfo()
+        {
+            return View();
+        }
     }
 }
