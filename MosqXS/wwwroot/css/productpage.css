@@ -1,0 +1,42 @@
+body {
+    width: 90%;
+    margin: auto;
+}
+
+h2 {
+    text-align: left;
+    font-size: 20px;
+    color: dodgerblue;
+    font-family: bebas;
+}
+
+h3 {
+    text-align: center;
+    font-size: 50px;
+    color: dodgerblue;
+    font-family: bebas;
+}
+
+h4 {
+    text-align: left;
+    font-size: 35px;
+    color: red;
+    font-family: bebas;
+    text-indent: 10em;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+p {
+    text-align: left;
+    font-family: bebas;
+    font-size: 25px;
+    text-indent: 10em;
+}
+
+hr {
+    width: 30%;
+}
