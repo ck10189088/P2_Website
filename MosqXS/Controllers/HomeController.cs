@@ -27,5 +27,9 @@ namespace MosqXS.Controllers
         {
             return View();
         }
+        public ActionResult MosqXSProduct()
+        {
+            return View();
+        }
     }
 }
